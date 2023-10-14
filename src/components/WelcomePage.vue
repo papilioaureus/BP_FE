@@ -1,53 +1,98 @@
 <template>
   <div id="app">
-    <header>
-      <h1>Welcome to IE Bank!</h1>
+    <header class="header" :style="{ backgroundImage: `url(${backgroundImage})` }">
+      <h1>Welcome to IE Online Bank</h1>
     </header>
-
-    <main>
-      <section id="services">
-        <h2>Money Management Services</h2>
-        <p>At IE Bank, we provide an array of sophisticated money management solutions tailored to cater to your individual or business needs. Our services ensure your finances are managed efficiently, aiming to augment your wealth and financial security.</p>
-      </section>
-
-      <nav id="navigation">
-        <button @click="goToAccountsPage">Go to Accounts Page</button>
-        <a href="https://example.com/skull.jpg" target="skull">View Skull</a>
-      </nav>
-    </main>
-
-    <footer>
-      <p>&copy; 2023 XYZ Bank - Your Trusted Fainancial Partner</p>
-    </footer>
+    <template>
+      <div class="button-container">
+        <router-link to="/skull" class="button">Skull</router-link>
+        <router-link to="/accounts" class="button">Account Management</router-link>
+      </div>
+    </template>
+    <section class="section">
+      <h2>Mission & Vision</h2>
+      <p>Ace the assignment of building online bank!</p>
+      <p>Get a good grade in this assignment...</p>
+    </section>
   </div>
 </template>
 
+
 <script>
 export default {
-  methods: {
-    goToAccountsPage() {
-      this.$router.push('/AppAccounts');
+  name: 'WelcomePage',
+  data() {
+    return {
+      backgroundImage: require('../assets/images/header-background.jpg')
     }
   }
 }
 </script>
 
+
 <style scoped>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.menu {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu li a {
+  display: block;
+  color: white;
   text-align: center;
-  color: #2c3e50;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-header {
-  margin-bottom: 50px;
+
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  background-image: "require(`./assets/images/header-background.png`)";
+  background-size: cover;
 }
 
-#services {
-  margin-bottom: 50px;
+
+.section {
+  padding: 20px;
 }
 
-nav button {
-  margin-right: 20px;
+
+.section h2 {
+  color: #ea81c4;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #ea81c4;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 </style>
