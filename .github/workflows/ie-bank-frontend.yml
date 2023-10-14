@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  FRONTEND_WEBAPP_DEV: KATHE-fe-dev
-  FRONTEND_WEBAPP_UAT: KATHE-fe-uat
+  FRONTEND_WEBAPP_DEV: kathe1-fe-dev
+  FRONTEND_WEBAPP_UAT: kathe1-fe-uat
 
 jobs:
   build:
