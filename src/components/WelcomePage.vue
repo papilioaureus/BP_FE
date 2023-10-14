@@ -33,7 +33,6 @@ export default {
 </script>
 
 <style scoped>
-/* Add your CSS styles here */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;

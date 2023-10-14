@@ -8,11 +8,11 @@ on:
   workflow_dispatch:
 
 env:
-  FRONTEND_WEBAPP_DEV: kathe-fe-dev
-  FRONTEND_WEBAPP_UAT: kathe-fe-uat
+  FRONTEND_WEBAPP_DEV: kathe1-fe-dev
+  FRONTEND_WEBAPP_UAT: kathe1-fe-uat
 
 jobs:
-  bud:
+  build:
     runs-on: ubuntu-latest
 
     steps:
