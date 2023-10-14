@@ -17,7 +17,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2023 XYZ Bank - Your Trusted Financial Partner</p>
+      <p>&copy; 2023 XYZ Bank - Your Trusted Fainancial Partner</p>
     </footer>
   </div>
 </template>
