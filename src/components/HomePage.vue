@@ -20,7 +20,7 @@
       </router-link>
 
       <router-link to="/accounts">
-        <button type="button" class="btn btn-secondary">Click Here to Access Accounts</button>
+        <button type="button" class="btn btn-secondary">Access Accounts</button>
       </router-link>
     </nav>
   </div>
@@ -72,7 +72,7 @@ button {
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 
   width: 220px;
