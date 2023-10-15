@@ -19,6 +19,7 @@ const routes = [
     name: "Skull",
     component: Skull,
   },
+
   
   {
     path: "/accounts",
