@@ -14,13 +14,14 @@ const routes = [
     component: WelcomePage,
   },
 
+  
   {
     path: "/skull",
     name: "Skull",
     component: Skull,
   },
 
-  
+
   {
     path: "/accounts",
     name: "AppAccounts",
