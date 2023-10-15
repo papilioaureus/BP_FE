@@ -23,7 +23,7 @@ export default {
   name: 'WelcomePage',
   data() {
     return {
-      backgroundImage: require('../assets/images/header-background.jpg')
+      backgroundImage: require('../assets/images/header-background.png')
     }
   }
 }
