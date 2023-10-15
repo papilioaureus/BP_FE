@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="header" :style="{ backgroundImage: `url(${backgroundImage})` }">
-      <h1>Welcome to IE Online Bank</h1>
+      <h1>IE Online Banking Services</h1>
     </header>
     <template>
       <div class="button-container">
@@ -10,9 +10,9 @@
       </div>
     </template>
     <section class="section">
-      <h2>Mission & Vision</h2>
-      <p>Ace the assignment of building online bank!</p>
-      <p>Get a good grade in this assignment...</p>
+      <h2>Our Mission Statement</h2>
+      <p>Get Github and Azure to Cooperate For Once In Their Lives</p>
+      <p>Create User Accounts</p>
     </section>
   </div>
 </template>
@@ -32,12 +32,12 @@ export default {
 
 <style scoped>
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 
 .menu {
-  background-color: #333;
+  background-color: ##4b93d5;
   overflow: hidden;
 }
 
@@ -73,7 +73,7 @@ body {
 
 
 .section h2 {
-  color: #ea81c4;
+  color: #1c5c99;
 }
 
 
@@ -87,7 +87,7 @@ body {
 .button {
   margin: 0 10px;
   padding: 10px 20px;
-  background-color: #ea81c4;
+  background-color: ##4b93d6;
   color: #ffffff;
   text-decoration: none;
   border: none;
