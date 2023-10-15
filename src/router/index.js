@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import WelcomePage from "../components/WelcomePage.vue";
+import HomePage from "../components/HomePage.vue";
 import Skull from "../components/Skull.vue";
 import AppAccounts from "../components/AppAccounts.vue";
 
@@ -10,8 +10,8 @@ const routes = [
 
   {
     path: "/",
-    name: "WelcomePage",
-    component: WelcomePage,
+    name: "HomePage",
+    component: HomePage,
   },
 
   {
