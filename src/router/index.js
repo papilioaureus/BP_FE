@@ -14,7 +14,6 @@ const routes = [
     component: WelcomePage,
   },
 
-  
   {
     path: "/skull",
     name: "Skull",
