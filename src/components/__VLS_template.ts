@@ -2,7 +2,7 @@ import {
   __VLS_internalComponent,
   __VLS_componentsOption,
   __VLS_name,
-} from "./HomePage.vue";
+} from "./WelcomePage.vue";
 
 function __VLS_template() {
   let __VLS_ctx!: InstanceType<
