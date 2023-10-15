@@ -11,6 +11,7 @@ env:
   FRONTEND_WEBAPP_DEV: kathe2-fe-dev
   FRONTEND_WEBAPP_UAT: kathe2-fe-uat
 
+  
 jobs:
   build:
     runs-on: ubuntu-latest
