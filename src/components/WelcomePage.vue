@@ -23,7 +23,7 @@ export default {
   name: 'WelcomePage',
   data() {
     return {
-      backgroundImage: require('../assets/images/header-background.png')
+      backgroundImage: require('../assets/images/header-image.png')
     }
   }
 }
@@ -62,7 +62,7 @@ body {
   padding: 60px;
   text-align: center;
   color: white;
-  background-image: "require(`./assets/images/header-background.png`)";
+  background-image: "require(`./assets/images/header-image.png`)";
   background-size: cover;
 }
 
