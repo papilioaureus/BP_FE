@@ -12,7 +12,7 @@
 
     <h1 id="title" class="text">Welcome to IE Bank!</h1>
     <p id="shortDescription" class="text">Your Trusted Banking Partner</p>
-    <img src="../assets/header-image.png" alt="IE Bank" width="300" height="300" />
+    <img src="../assets/header-image.png" alt="IE Bank" width="800" height="300" />
 
     <nav id="buttonNav">
       <router-link to="/skull">
@@ -28,7 +28,7 @@
 
 <style scoped>
 header {
-  background-color: #cde9f9;
+  background-color: #b7e2fa;
   padding: 20px;
   text-align: center;
   z-index: 1;
@@ -38,12 +38,12 @@ header {
   padding: 20px;
   text-decoration: underline;
   font-size: 30px;
-  color: black;
+  color: rgb(39, 11, 89);
 }
 
 .headerElem:hover {
   background-color: #4242e8;
-  color: black;
+  color: rgb(18, 8, 48);
 }
 
 .text {
@@ -72,10 +72,10 @@ button {
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 
-  width: 150px;
-  height: 100px;
+  width: 220px;
+  height: 50px;
 }
 </style>
